@@ -1,57 +1,105 @@
-# Customer Churn Prediction
+# 📊 Customer Churn Prediction
 
-## Project Overview
-Customer churn refers to customers who discontinue or cancel a service.  
-This project aims to analyze customer behavior and build a machine learning model to predict customer churn in a telecom company.
+## 🚀 Project Overview
 
-The focus is on understanding **why customers leave** and identifying key factors that influence churn.
+Customer churn refers to customers who discontinue or cancel a service.
 
----
+This project analyzes telecom customer behavior and builds a machine learning model to predict customer churn.
 
-## Dataset
-- **Name:** Telco Customer Churn Dataset
-- **Source:** IBM Sample Dataset (Kaggle)
-- **Records:** 7,043 customers
-- **Target Variable:** Churn (Yes / No)
-
-The dataset contains customer demographic details, service usage, billing information, and contract details.
+### 🎯 Objectives
+- Understand why customers leave  
+- Identify key churn-driving factors  
+- Enable data-driven customer retention strategies  
 
 ---
 
-## Exploratory Data Analysis (Day 1)
+## 📂 Dataset
 
-### Key Observations
-- Overall churn rate is approximately **26.5%**, indicating a significant churn problem.
-- Customers with **shorter tenure** are more likely to churn.
-- **Higher monthly charges** are associated with higher churn.
-- **Month-to-month contracts** show the highest churn compared to long-term contracts.
-- Customers with partners or dependents tend to be more stable.
+- **Name:** Telco Customer Churn Dataset  
+- **Source:** IBM Sample Dataset (Kaggle)  
+- **Total Records:** 7,043 customers  
+- **Target Variable:** `Churn` (Yes / No)
 
-### Data Quality Handling
-- Identified `TotalCharges` as a numeric column stored as text.
-- Converted `TotalCharges` to numeric format and handled missing values appropriately.
-
----
-
-## Current Status
-- ✔ Dataset loaded and understood
-- ✔ Exploratory Data Analysis completed
-- ✔ Key churn-driving factors identified
+### Dataset Contains:
+- Customer demographic details  
+- Service usage information  
+- Contract type details  
+- Billing and payment information  
+- Tenure data  
 
 ---
 
-## Next Steps
-- Data cleaning and preprocessing
-- Encoding categorical features
-- Train-test split
-- Build and evaluate a churn prediction model
+## 📊 Exploratory Data Analysis (EDA)
+
+### 🔎 Key Observations
+
+- Overall churn rate ≈ **26.5%**  
+- Customers with shorter tenure are more likely to churn  
+- Higher monthly charges are associated with higher churn  
+- Month-to-month contracts show highest churn  
+- Customers with partners/dependents are more stable  
 
 ---
 
-## Technologies Used
-- Python
-- Pandas
-- NumPy
-- Matplotlib
+## 🧹 Data Quality Handling
 
+- Identified `TotalCharges` stored as text  
+- Converted `TotalCharges` to numeric  
+- Handled missing values  
+- Verified dataset consistency  
 
+---
+
+## ⚙️ Data Preprocessing
+
+### ✔ Data Cleaning
+- Removed `customerID`  
+- Converted `Churn` to binary (1 = Yes, 0 = No)  
+- Handled missing values  
+
+### ✔ Feature Engineering
+- Applied Binary Encoding  
+- Applied One-Hot Encoding  
+- Validated transformed dataset  
+
+---
+
+## 🏗 Project Workflow
+
+1. Dataset Loading  
+2. Exploratory Data Analysis  
+3. Data Cleaning  
+4. Feature Encoding  
+5. Feature Scaling  
+6. Train-Test Split  
+7. Model Training  
+8. Model Evaluation  
+
+---
+
+## 📌 Current Status
+
+- ✔ EDA Completed  
+- ✔ Data Cleaning Completed  
+- ✔ Feature Engineering Completed  
+- 🔄 Model Training in Progress  
+
+---
+
+## 🚀 Next Steps
+
+- Feature Scaling  
+- Train-Test Split  
+- Logistic Regression (Baseline Model)  
+- Model Evaluation (Accuracy, Precision, Recall, F1, ROC-AUC)  
+- Model Optimization  
+
+---
+
+## 🛠 Technologies Used
+
+- Python  
+- Pandas  
+- NumPy  
+- Matplotlib   
+- Scikit-learn  
