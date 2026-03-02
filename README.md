@@ -81,8 +81,7 @@ This project analyzes telecom customer behavior and builds a machine learning mo
 
 - ✔ EDA Completed  
 - ✔ Data Cleaning Completed  
-- ✔ Feature Engineering Completed  
-- 🔄 Model Training in Progress  
+- ✔ Feature Engineering Completed   
 
 ---
 
@@ -103,3 +102,4 @@ This project analyzes telecom customer behavior and builds a machine learning mo
 - NumPy  
 - Matplotlib   
 - Scikit-learn  
+
